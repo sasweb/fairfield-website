@@ -11,26 +11,23 @@ const Legal = () => (
 
           <h2 className="mb-4 mt-8 text-xl font-semibold">Angaben gemäß § 5 TMG</h2>
           <p>
-            Fairfield & Archer Gmbh <br />
+            Fairfield & Archer GmbH <br />
             Neuer Wall 48 <br />
             20354 Hamburg
           </p>
-          <p>
-            Handelsregister: HRB <br />
-            Registergericht: Hamburg
-          </p>
+          <p>Amtsgericht Hamburg - HRB 189303</p>
 
           <h2 className="mb-4 mt-8 text-xl font-semibold">Vertreten durch:</h2>
-          <p>Dr. Frank Passing</p>
+          <p>Prof. Dr. Frank Passing </p>
 
           <h2 className="mb-4 mt-8 text-xl font-semibold">Kontakt</h2>
           <p>
-            Telefon: +49 000 000 000 <br />
+            Telefon: +49 40 66858206 <br />
             E-Mail: info@fairfield-archer.com
           </p>
 
           <h2 className="mb-4 mt-8 text-xl font-semibold">Umsatzsteuer-ID</h2>
-          <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE000000000</p>
+          <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE450280980</p>
 
           <h2 className="mb-4 mt-8 text-xl font-semibold">EU-Streitschlichtung</h2>
           <p>
