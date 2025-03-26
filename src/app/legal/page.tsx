@@ -12,8 +12,8 @@ const Legal = () => (
           <h2 className="mb-4 mt-8 text-xl font-semibold">Angaben gemäß § 5 TMG</h2>
           <p>
             Fairfield & Archer Gmbh <br />
-            Adresse 1 <br />
-            Adresse 2
+            Neuer Wall 48 <br />
+            20354 Hamburg
           </p>
           <p>
             Handelsregister: HRB <br />

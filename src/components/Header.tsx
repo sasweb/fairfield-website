@@ -9,7 +9,7 @@ export const Header = () => {
   const t = useTranslations();
 
   return (
-    <header className={`flex h-24 items-center border-b bg-white md:sticky md:top-0 md:z-10`}>
+    <header className={`flex h-20 items-center border-b bg-white md:sticky md:top-0 md:z-10`}>
       <nav className="container flex items-center justify-between">
         <Link href="/">
           <Logo />

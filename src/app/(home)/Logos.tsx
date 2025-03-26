@@ -12,13 +12,13 @@ export const Logos = () => {
         href: 'https://www.din.de/',
         isHiddenOnMobile: true,
         src: '/collaborate-1.jpeg',
-        title: t('Mitgestalten'),
+        title: t('Mitgestalten im'),
       },
       {
         alt: 'Logo: Frankfurter Arbeitskreis Compliance & Governance',
         href: 'https://www.frankfurter-arbeitskreis.de',
         src: '/active-1.jpeg',
-        title: t('Aktiv sein'),
+        title: t('Aktiv im'),
       },
       {
         alt: 'Logo: Deutsches Institut für Compliance',
@@ -42,7 +42,7 @@ export const Logos = () => {
   );
 
   return (
-    <section className="py-16">
+    <section className="py-20">
       <div className="container">
         <div className="flex flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
           {logos.map((logo) => (
@@ -61,7 +61,7 @@ export const Logos = () => {
                 )}
               </div>
               <img
-                className="h-10 w-auto object-contain object-left xl:h-12"
+                className="h-8 w-auto object-contain object-left xl:h-9"
                 src={logo.src}
                 alt={logo.alt}
               />
