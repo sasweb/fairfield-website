@@ -10,7 +10,9 @@ export const Stage = () => {
         <div className="grid h-full gap-20 overflow-hidden rounded-lg lg:grid-cols-5 lg:bg-muted lg:pl-12 lg:pt-8">
           <div className="flex flex-col items-start justify-center gap-6 lg:col-span-3">
             <h1 className="text-2xl font-bold leading-snug md:text-4xl">
-              {t('Verlässlich in der Compliance, visionär in der Technologie')}
+              {t('Verlässlich in der Compliance,')}
+              <br />
+              {t('visionär in der Technologie')}
             </h1>
             <span className="text-base text-slate-500">
               {t(
