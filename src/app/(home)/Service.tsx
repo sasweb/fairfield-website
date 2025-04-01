@@ -38,9 +38,6 @@ export const Service = () => {
             <h2 className="text-2xl font-semibold">
               {t('Wir bringen Effizienz und Übersicht in Ihre Compliance')}
             </h2>
-            <p className="text-muted-foreground">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, perferendis!
-            </p>
           </div>
 
           <div className="col-span-2 grid w-full grid-cols-1 gap-4 md:grid-cols-2 lg:gap-8">
