@@ -20,8 +20,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
   return {
     metadataBase: new URL(defaultUrl),
-    title: 'Fairfield & Archer',
-    description: `${t('Verlässlich in der Compliance, visionär in der Technologie')}.`,
+    title: 'Fairfield Archer  - Regulatory Compliance Workflows as a Service',
+    description: `${t('Fairfield Archer bietet KI-gestützte Workflow-Lösungen für regulatorisches Compliance Management – automatisiert, effizient und effektiv')}.`,
   };
 };
 
