@@ -1,6 +1,7 @@
 import { logger } from '@/logger';
 import { NextResponse } from 'next/server';
 
+const BREVO_API_KEY = process.env.BREVO_API_KEY;
 const LIST_IDS = [5];
 const BREVO_MAILBOX = 'brevo@fairfield-archer.com';
 
@@ -30,7 +31,7 @@ export const POST = async (request: Request) => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'api-key': process.env.BREVO_API_KEY || '',
+          'api-key': BREVO_API_KEY,
         },
         body: JSON.stringify({
           email,
@@ -63,7 +64,7 @@ export const POST = async (request: Request) => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'api-key': process.env.BREVO_API_KEY || '',
+            'api-key': BREVO_API_KEY,
           },
           body: JSON.stringify({
             sender: {

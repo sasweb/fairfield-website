@@ -1,5 +1,6 @@
 import { Button } from '@/components/Button';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 export const Stage = () => {
   const t = useTranslations();
@@ -20,13 +21,11 @@ export const Stage = () => {
               )}
               .
             </span>
-            {/* <Link href="/contact"> */}
-            <a href="mailto:info@fairfield-archer.com">
+            <Link href="/contact">
               <Button className="mt-3" variant="default">
                 {t('Demo buchen')}
               </Button>
-            </a>
-            {/* </Link> */}
+            </Link>
           </div>
 
           <div className="relative hidden size-full items-end lg:col-span-2 lg:flex">
