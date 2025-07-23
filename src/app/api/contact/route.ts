@@ -31,7 +31,7 @@ export const POST = async (request: Request) => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'api-key': BREVO_API_KEY,
+          'api-key': BREVO_API_KEY || '',
         },
         body: JSON.stringify({
           email,
@@ -64,7 +64,7 @@ export const POST = async (request: Request) => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'api-key': BREVO_API_KEY,
+            'api-key': BREVO_API_KEY || '',
           },
           body: JSON.stringify({
             sender: {
