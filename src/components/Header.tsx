@@ -15,12 +15,9 @@ export const Header = () => {
           <Logo />
         </Link>
         <div className="flex items-center gap-2">
-          <a href="mailto:info@fairfield-archer.com">
+          <Link passHref href="/contact">
             <Button variant="outline">{t('Kontakt')}</Button>
-          </a>
-          {/* <Link passHref href="/contact">
-            <Button variant="outline">{t('Kontakt')}</Button>
-          </Link> */}
+          </Link>
         </div>
       </nav>
     </header>
