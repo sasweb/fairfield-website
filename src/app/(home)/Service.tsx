@@ -43,8 +43,8 @@ export const Service = () => {
           <div className="col-span-2 grid w-full grid-cols-1 gap-4 md:grid-cols-2 lg:gap-8">
             {services.map((service) => (
               <div className="flex flex-col gap-6 rounded-md bg-muted p-8" key={service.title}>
-                <h3 className="text-lg font-bold">{service.title}</h3>
-                <p className="text-sm">{service.description}.</p>
+                <h3 className="text-lg font-bold md:text-xl">{service.title}</h3>
+                <p className="text-sm md:text-base">{service.description}.</p>
               </div>
             ))}
           </div>

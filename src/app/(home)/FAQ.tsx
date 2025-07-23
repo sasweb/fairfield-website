@@ -12,20 +12,20 @@ export const FAQ = () => {
   return (
     <section className="py-20">
       <div className="container">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-7 lg:gap-32 xl:gap-40">
-          <div className="col-span-4 flex flex-col gap-6 lg:col-span-3">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-8 lg:gap-32 xl:gap-40">
+          <div className="col-span-4 flex flex-col gap-6 lg:col-span-4">
             <h2 className="text-2xl font-semibold">
               {t('Ihr Wissenshub für Compliance')}
               <br />
               {t('und Risikomanagement')}
             </h2>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground md:text-base">
               {t(
                 'In diesem Bereich finden Sie kompakte und verständliche Erklärungen zu zentralen Begriffen rund um regulatorische Anforderungen, Compliance und Risikomanagement',
               )}
               .
             </p>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground md:text-base">
               {t(
                 'Unser Ziel ist es, Unternehmen dabei zu unterstützen, ihre Compliance-Prozesse effizient und wirksam aufzubauen, weiterzuentwickeln und nachhaltig zu optimieren',
               )}

@@ -1,5 +1,6 @@
 import { Button } from '@/components/Button';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 export const Stage = () => {
   const t = useTranslations();
@@ -14,17 +15,17 @@ export const Stage = () => {
               <br />
               {t('visionär in der Technologie')}.
             </h1>
-            <span className="text-sm text-slate-500 sm:max-w-[75%] md:text-sm lg:max-w-[90%]">
+            <span className="text-sm text-slate-500 sm:max-w-[75%] lg:max-w-[90%] lg:text-base">
               {t(
                 'Mit visionären Technologien und intelligenter Automatisierung gestalten wir bei Fairfield & Archer nahtlose Compliance-Workflows, die Ihren Alltag erleichtern, Risiken besser einschätzbar machen und Zeit für das Wesentliche schaffen',
               )}
               .
             </span>
-            <a href="mailto:info@fairfield-archer.com?subject=Demo%20buchen">
+            <Link href="/contact">
               <Button className="mt-3" variant="default">
                 {t('Demo buchen')}
               </Button>
-            </a>
+            </Link>
           </div>
 
           <div className="relative hidden size-full items-end lg:col-span-2 lg:flex">
