@@ -12,8 +12,8 @@ export const Solution = () => {
               <h2 className="text-3xl font-semibold text-white">Regulatory Compliance</h2>
               <span className="text-xl text-[#d7c394]">as a Service</span>
             </div>
-            <p className="text-sm text-white">{t('solution-copy-1')}</p>
-            <p className="text-sm text-white">{t('solution-copy-2')}</p>
+            <p className="text-sm text-white md:text-base">{t('solution-copy-1')}</p>
+            <p className="text-sm text-white md:text-base">{t('solution-copy-2')}</p>
           </div>
 
           <img

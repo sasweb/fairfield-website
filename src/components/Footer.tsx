@@ -11,28 +11,28 @@ export const Footer = () => {
         <div className="flex flex-col gap-16">
           <div className="flex flex-col items-center gap-4 md:items-start">
             <Link href="/">
-              <Logo className="h-[18px]" fill="#fff" />
+              <Logo className="h-[20px]" fill="#fff" />
             </Link>
-            <span className="text-xs leading-snug text-white/50">
+            <span className="text-base leading-snug text-white/50">
               Neuer Wall 48, <br />
               20354 Hamburg
             </span>
           </div>
 
           <div className="flex flex-col-reverse items-center justify-between gap-8 md:flex-row">
-            <span className="text-xs text-footer-foreground lg:text-xs">
+            <span className="text-xs text-footer-foreground lg:text-base">
               &copy; {new Date().getFullYear()} Fairfield & Archer
             </span>
 
             <div className="flex flex-col items-center gap-4 md:flex-row md:gap-8">
               <Link
-                className="text-xs text-footer-foreground hover:underline lg:text-xs"
+                className="text-xs text-footer-foreground hover:underline lg:text-base"
                 href="/legal"
               >
                 {t('Impressum')}
               </Link>
               <Link
-                className="text-xs text-footer-foreground hover:underline lg:text-xs"
+                className="text-xs text-footer-foreground hover:underline lg:text-base"
                 href="/privacy"
               >
                 {t('Datenschutz')}
