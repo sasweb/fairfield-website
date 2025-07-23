@@ -1,12 +1,13 @@
+import { cn } from '@/shared';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { Logo } from './Logo';
 
-export const Footer = () => {
+export const Footer = ({ className }: { className?: string }) => {
   const t = useTranslations();
 
   return (
-    <footer className="mt-16 bg-footer py-12">
+    <footer className={cn('mt-16 bg-footer py-12', className)}>
       <div className="container">
         <div className="flex flex-col gap-16">
           <div className="flex flex-col items-center gap-4 md:items-start">

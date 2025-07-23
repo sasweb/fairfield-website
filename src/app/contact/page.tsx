@@ -1,7 +1,7 @@
 import { ContactForm } from '@/components/ContactForm/ContactForm';
 
 const ContactPage = () => (
-  <section className="py-8">
+  <section className="py-8 md:py-16">
     <div className="container grid grid-cols-1 gap-8 md:grid-cols-2 xl:gap-16">
       <div className="max-w-[500px] space-y-8 lg:space-y-11">
         <h1 className="text-2xl font-semibold leading-snug md:text-4xl">

@@ -5,7 +5,7 @@ const ContactLayout = ({ children }: { children: React.ReactNode }) => (
   <div>
     <Header />
     {children}
-    <Footer />
+    <Footer className="mt-0" />
   </div>
 );
 
