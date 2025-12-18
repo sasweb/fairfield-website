@@ -22,6 +22,7 @@ export default {
       colors: {
         brand: 'var(--brand)',
         'brand-foreground': 'var(--brand-foreground)',
+        'brand-gold': 'var(--brand-gold)',
         footer: 'var(--footer)',
         'footer-foreground': 'var(--footer-foreground)',
         background: 'hsl(var(--background))',
@@ -94,5 +95,5 @@ export default {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography')],
 } satisfies Config;
