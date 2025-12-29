@@ -1,4 +1,5 @@
 import { Category } from '@/cms/types/Category';
+import { nameToSlug } from '@/cms/getCategories';
 import { Post } from '@/cms/types/Post';
 import { formatDate } from '@/shared';
 import fs from 'fs';
@@ -28,7 +29,7 @@ export const getPosts = async ({
       return {
         id,
         title: data.title,
-        category: data.category,
+        category: nameToSlug(data.category),
         date: formatDate(
           data.date instanceof Date ? data.date.toISOString().split('T')[0] : data.date,
         ),

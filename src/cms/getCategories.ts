@@ -11,6 +11,13 @@ export const slugToName = (slug: string): string =>
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 
+export const nameToSlug = (name: string): string =>
+  name
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
+
 export const getCategories = async (): Promise<Array<Category>> => {
   if (!fs.existsSync(postsDirectory)) {
     return [];
@@ -27,7 +34,7 @@ export const getCategories = async (): Promise<Array<Category>> => {
       const { data } = matter(fileContents);
 
       if (data.category) {
-        categorySlugs.add(data.category);
+        categorySlugs.add(nameToSlug(data.category));
       }
     });
 
