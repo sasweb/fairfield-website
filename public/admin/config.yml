@@ -3,6 +3,8 @@ backend:
   repo: sasweb/fairfield-website
   branch: main
 
+site_url: https://fairfield-archer.com
+base_url: https://fairfield-archer.com
 local_backend: true
 
 media_folder: public/uploads
