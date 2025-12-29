@@ -5,7 +5,6 @@ backend:
 
 site_url: https://fairfield-archer.com
 base_url: https://fairfield-archer.com
-local_backend: true
 
 media_folder: public/uploads
 public_folder: /uploads
