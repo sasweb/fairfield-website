@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: sasweb/fairfield-website
   branch: main
 
 local_backend: true
