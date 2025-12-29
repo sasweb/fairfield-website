@@ -41,6 +41,7 @@ body {
     --brand-foreground: #ffffff;
     --footer: #12121e;
     --footer-foreground: #ffffff;
+    --brand-gold: #877b5f;
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -67,7 +68,7 @@ body {
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
-    --brand: #11131E;
+    --brand: #11131e;
     --brand-foreground: #ffffff;
     --footer: #12121e;
     --footer-foreground: #ffffff;
